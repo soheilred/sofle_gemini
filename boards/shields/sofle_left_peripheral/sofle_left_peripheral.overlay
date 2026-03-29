@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <behaviors.dtsi>
 
 / {
     chosen {
@@ -53,18 +52,5 @@
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder>;
         triggers-per-rotation = <20>;
-    };
-
-    keymap {
-        compatible = "zmk,keymap";
-        default_layer {
-            bindings = <
-                &none &none &none &none &none &none                 &none &none &none &none &none &none
-                &none &none &none &none &none &none                 &none &none &none &none &none &none
-                &none &none &none &none &none &none                 &none &none &none &none &none &none
-                &none &none &none &none &none &none &none     &none &none &none &none &none &none &none
-                            &none &none &none &none &none     &none &none &none &none &none
-            >;
-        };
     };
 };
