@@ -54,4 +54,17 @@
         sensors = <&right_encoder>;
         triggers-per-rotation = <20>;
     };
+
+    keymap {
+        compatible = "zmk,keymap";
+        default_layer {
+            bindings = <
+                &none &none &none &none &none &none                 &none &none &none &none &none &none
+                &none &none &none &none &none &none                 &none &none &none &none &none &none
+                &none &none &none &none &none &none                 &none &none &none &none &none &none
+                &none &none &none &none &none &none &none     &none &none &none &none &none &none &none
+                            &none &none &none &none &none     &none &none &none &none &none
+            >;
+        };
+    };
 };
