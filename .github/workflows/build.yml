@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'config/**'
+      - 'boards/**'
+      - 'zephyr/**'
       - 'build.yaml'
   workflow_dispatch:
 
