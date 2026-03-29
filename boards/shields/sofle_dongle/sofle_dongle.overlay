@@ -20,9 +20,8 @@
     };
 
     mock_kscan: kscan_0 {
-        compatible = "zmk,kscan-mock";
-        columns = <0>;
+        compatible = "zmk,kscan-composite";
         rows = <0>;
-        events = <0>;
+        columns = <0>;
     };
 };
